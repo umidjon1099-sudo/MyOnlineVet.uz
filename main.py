@@ -5,7 +5,7 @@ from bot_config import bot, dp
 from reminders_notifier import start_reminder_notifier
 from server import run_bot
 from webapp_server import start_webapp_server, stop_webapp_server
-import handlers  # noqa: F401 - импорт для регистрации всех обработчиков
+import handlers  # noqa: F401 - импорт для регистрации всех обработчиков.
 
 
 async def main():
